@@ -1,0 +1,7 @@
+@mixin clearfix {
+  &:after {
+    content: ""; //ALWAYS NEED TO SPECIFY THE CONTENT OTHERWISE A PSEUDO ELEMENT WILL NOT APPEAR
+    display: table;
+    clear: both;
+  }
+}
