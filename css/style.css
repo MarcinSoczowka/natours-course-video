@@ -374,7 +374,7 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50% 20%);
+    transform: translate(-50%, 20%);
     color: #fff;
     text-transform: uppercase;
     font-size: 1.7rem;
@@ -384,7 +384,7 @@ body {
     backface-visibility: hidden; }
   .story:hover .story__caption {
     opacity: 1;
-    transform: translate(-50% -50%); }
+    transform: translate(-50%, -50%); }
   .story:hover .story__img {
     transform: translateX(-4rem) scale(1);
     filter: blur(3px) brightness(80%); }
