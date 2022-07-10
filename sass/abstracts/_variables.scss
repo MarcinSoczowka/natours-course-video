@@ -13,6 +13,7 @@ $color-grey-light-1: #f7f7f7;
 $color-grey-light-2: #eee;
 
 $color-grey-dark: #777;
+$color-grey-dark-2: #999;
 $color-white: #fff;
 
 $color-black: #000;
@@ -36,3 +37,9 @@ $shadow-btn-hover: 0 1rem 2rem rgba($color-black, 0.17);
 $shadow-card: 0 1.5rem 4rem rgba($color-black, 0.15);
 
 $shadow-story: 0 3rem 6rem rgba($color-black, 0.1);
+
+//ROUNDING
+$round-corners-small: 1px;
+$round-corners-medium: 2px;
+$round-corners-big: 3px;
+$round-corners-btn: 10rem;
