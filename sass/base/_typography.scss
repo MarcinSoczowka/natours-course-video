@@ -59,6 +59,10 @@ body {
   letter-spacing: 2rem;
   transition: all 0.2s;
 
+  @include respond(tab-port-big) {
+    font-size: 3.1rem;
+  }
+
   @include respond(tab-port) {
     font-size: 3rem;
   }
@@ -81,6 +85,9 @@ body {
   font-size: $default-font-size;
   font-weight: 700;
   text-transform: uppercase;
+  @include respond(tab-port-big) {
+    font-size: 1.3rem;
+  }
 }
 
 .paragraph {
